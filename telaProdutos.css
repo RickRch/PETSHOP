@@ -1,0 +1,150 @@
+.container-produtos {
+    display: flex;
+}
+
+.container-produtos .img {
+    flex: 1;
+}
+
+.container-img {
+    padding: 20px;
+}
+
+.imgGG {
+    width: 404px;
+    height: 504px;
+    background-color: red;
+    gap: 10px;
+}
+
+.container-produtos .conteudo {
+    flex: 1;
+}
+
+.img-restante {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+h1 {
+
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    margin: 50px;
+    padding: 0px;
+}
+
+.estoque{
+    text-align: right;
+}
+
+.tamanho {
+    font-size: 30px;
+    margin-top: 5px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+
+.sabor {
+    font-size: 30px;
+    margin-top: 5px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.preço {
+    font-size: 40px;
+    text-align: right;
+}
+
+.preçoCartao {
+    font-size: 15px;
+    text-align: right;
+}
+
+.comprar {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 0 15px;
+}
+
+.adicionar {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 8px 100px;
+    float: right;
+    cursor: pointer;
+}
+
+.frete  {
+    color: black;
+    text-align: right;
+    margin: 20px;
+    padding: 0px;
+}
+
+.calcular {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+
+    
+}
+
+.cep {
+    color: gray;
+    display: block;
+    text-align: right;
+}
+
+.calculator {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    display: block;
+}
+
+.Calcular {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 0 15px;
+}
+
+    h5 {
+        color: black;
+        font-size: 36px;
+    }
+    
+    .descrição {
+        color: black;
+        font-size: 15px;
+    }
